@@ -1,4 +1,7 @@
 # this is a password checker demo
+# In this demo the user is prompted for the password
+# if they answer correctly, they are granted access
+# if they answer incorrectly, access is denied
 
 def passwordChecker(password):
 
@@ -11,7 +14,7 @@ def passwordChecker(password):
         print("\nWelcome User \nAccess Granted")
         result = "true"
     else:
-        print("\nWrong Password User \nAccess Denied")
+        print("\nWrong Password \nAccess Denied")
         result = "true"
 
 # correct password required to get access
