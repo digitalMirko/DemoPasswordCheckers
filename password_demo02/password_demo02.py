@@ -1,4 +1,7 @@
 # this is a password checker demo
+# In this demo the user is prompted for the password and it will continue
+# to prompt them until the correct answer is given. Then they click the 'Enter' key
+# and the program stops
 
 def passwordChecker(password):
 
